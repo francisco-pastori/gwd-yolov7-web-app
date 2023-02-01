@@ -261,3 +261,12 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# Add custom weights of model
+!runs/train
+runs/train/*
+!runs/train/yolov7-custom-wheat
+runs/train/yolov7-custom-wheat/*
+!runs/train/yolov7-custom-wheat/weights
+runs/train/yolov7-custom-wheat/weights/*
+!runs/train/yolov7-custom-wheat/weights/best.pt
